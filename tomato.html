@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TomatoTimer</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/button.css" />
+		<link rel="stylesheet" href="css/tomato.css" />
+	</head>
+	<body class="body body_bg_tomato">
+		<div class="body__content body__content_column">
+			<section class="timer">
+				<div class="timer-item">
+					<span class="timer-item__numbers" id="timer-v-hours"></span>
+					<span class="timer-item__text"></span>
+				</div>
+				<div class="timer-item">
+					<span class="timer-item__numbers" id="timer-v-minutes"></span>
+					<span class="timer-item__text"></span>
+				</div>
+			</section>
+
+			<section class="hero">
+				<div class="wrapper">
+					<ul class="list" id="list-tomato">
+						<li class="list__cell list__cell_tomato">
+							<!-- draggable="true" включает перетаскивание -->
+							<div class="list__tomato icon icon_tomato"
+								id="card-tomato"
+								draggable="false">
+							</div>
+						</li>
+						<li class="list__cell list__cell_basket"
+							id="cell-basket"
+							draggable="false">
+
+							<div class="count-basket"
+								id="count-basket"
+								draggable="false">
+							</div>
+							<div class="list__tomato icon icon_basket"
+								draggable="false">
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<p class="button button__timer-tomato button__timer-tomato_bg_pause" id="buttonPause">PAUSE</p>
+			<p class="button button__timer-tomato button__timer-tomato_bg_start" id="buttonStart">START</p>
+			<p class="button button__timer-tomato button__timer-tomato_bg_reset" id="buttonReset">RESET</p>
+
+		</div>
+		<script src="js/timer-tomato.js"></script>
+	</body>
+</html>

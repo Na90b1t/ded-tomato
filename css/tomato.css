@@ -1,0 +1,120 @@
+.body__content_column {
+	display: flex;
+	flex-direction: column;
+}
+
+.timer {
+	width: 300px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 60px;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white;
+}
+
+.button__timer-tomato {
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+.button__timer-tomato_bg_pause {
+	background-color: white;
+}
+
+.button__timer-tomato_bg_start {
+	background-color: green;
+}
+
+.button__timer-tomato_bg_reset {
+	background-color: rebeccapurple;
+}
+
+.hero {
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 50px 0;
+}
+
+.list__cell {
+	position: relative;
+	margin: 0 20px;
+	list-style-type: none;
+	box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.2);
+	background-color: pink;
+	overflow: hidden;
+}
+
+.list__cell_tomato {
+	width: 150px;
+	max-width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.list__cell_basket {
+	width: 250px;
+	max-width: 250px;
+	height: 200px;
+	border-radius: 20%;
+}
+
+.list__tomato {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	text-align: center;
+	min-height: 100%;
+	cursor: all-scroll;
+	width: 100%;
+	height: 100%;
+}
+
+.icon {
+	background: no-repeat center / contain;
+}
+
+.icon_tomato {
+	background-image: url(/img/Tomato_icon-icons.com_68675.svg);
+}
+
+.icon_basket {
+	background-image: url(/img/shopping_basket_icon_196874.svg);
+	background-position-y: 30px;
+}
+
+.hide {
+	display: none;
+}
+
+.hovered {
+	background-color: #d1d8d2;
+	background-color: red;
+}
+
+.count-basket {
+	position: absolute;
+	top: 15px;
+	left: 50%;
+	transform: translate(-50%);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #d95550;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
